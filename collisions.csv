@@ -1,0 +1,232 @@
+Number of bits,Messages attempted,Time taken
+8,8,0.0002028942108154
+10,31,0.0003671646118164
+12,151,0.0017032623291015
+14,324,0.0032770633697509
+16,353,0.0035071372985839
+18,139,0.0015969276428222
+20,897,0.0082349777221679
+22,3244,0.0263118743896484
+24,7018,0.0510196685791015
+26,3858,0.0295090675354003
+28,27027,0.2060978412628173
+30,33365,0.2560930252075195
+32,25798,0.191972017288208
+34,63543,0.4984557628631592
+36,314866,2.4998252391815186
+38,442692,3.4630990028381348
+40,1085973,8.64444899559021
+42,1906507,16.159368991851807
+44,9712109,82.49475002288818
+46,3510443,29.465295791625977
+48,32301396,267.0186469554901
+
+Finding collisions for 8 bits
+Collision found for 8 bits: b'gFcgaFn1dP' and b'qaKaoXxXgn' with hash 52
+Number of hashes computed: 12
+Finding collisions for 10 bits
+Collision found for 10 bits: b'O0vRQHKckj' and b'J7KiahY48c' with hash 3780
+Number of hashes computed: 37
+Finding collisions for 12 bits
+Collision found for 12 bits: b'qJuElID3ui' and b'zVmFkNVVym' with hash c750
+Number of hashes computed: 47
+Finding collisions for 14 bits
+Collision found for 14 bits: b'vzoLVlHHYr' and b'bx1gGUzXmO' with hash 0704
+Number of hashes computed: 186
+Finding collisions for 16 bits
+Collision found for 16 bits: b'8vI2p4f26a' and b'cQFg0r0t5J' with hash c7c6
+Number of hashes computed: 442
+Finding collisions for 18 bits
+Collision found for 18 bits: b'X6LdajHcV3' and b'g0ODPp197q' with hash 11eb00
+Number of hashes computed: 1100
+Finding collisions for 20 bits
+Collision found for 20 bits: b'WX1O8rc5k5' and b'02AEjCKai3' with hash ffc700
+Number of hashes computed: 1544
+Finding collisions for 22 bits
+Collision found for 22 bits: b'dzpFdACa8G' and b'Mk0CQlM22R' with hash ff4ab8
+Number of hashes computed: 2551
+Finding collisions for 24 bits
+Collision found for 24 bits: b'W0yMRWuyzZ' and b'2e8RY5eMgQ' with hash c516cb
+Number of hashes computed: 8153
+Finding collisions for 26 bits
+Collision found for 26 bits: b'ssrNFQpoFV' and b'OFvMqvEsup' with hash 64dcce40
+Number of hashes computed: 4276
+Finding collisions for 28 bits
+Collision found for 28 bits: b'75DzA4tI3D' and b'5CtlgzATwX' with hash fe1789b0
+Number of hashes computed: 12221
+Finding collisions for 30 bits
+Collision found for 30 bits: b'1gziHFzZk6' and b'k4DAItTNtH' with hash 5c13f754
+Number of hashes computed: 1148
+Finding collisions for 32 bits
+Collision found for 32 bits: b'EFfsIaO768' and b'LpbdKpONc7' with hash 29480516
+Number of hashes computed: 93941
+Finding collisions for 34 bits
+Collision found for 34 bits: b'7nS3Q0YeKC' and b'1z5ZvOfqID' with hash b5c45bc780
+Number of hashes computed: 294972
+Finding collisions for 36 bits
+Collision found for 36 bits: b'vaik1kyJLA' and b'exqA7El9NL' with hash 557eb9cc30
+Number of hashes computed: 106307
+Finding collisions for 38 bits
+Collision found for 38 bits: b'ku5e1zxxhg' and b'2i62akYekG' with hash dea3270f9c
+Number of hashes computed: 882325
+Finding collisions for 40 bits
+Collision found for 40 bits: b'PJJMGzF07w' and b'MBR0cy9yvj' with hash 885d1a10a2
+Number of hashes computed: 2539398
+Finding collisions for 42 bits
+Collision found for 42 bits: b'umHpAYDJE8' and b'rAEqaFNxxF' with hash 5dd028bff2c0
+Number of hashes computed: 278936
+Finding collisions for 44 bits
+Collision found for 44 bits: b'EUgCXzOYVV' and b'Tp3Q2KaEPB' with hash 21a84ce344e0
+Number of hashes computed: 1694021
+Finding collisions for 46 bits
+^CTraceback (most recent call last):
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 66, in <module>
+    
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 62, in main
+    # print(arbitrary_hash_trunc(b"hello", 24))
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 37, in find_collisions
+    random_str = (''.join(random.choices(string.ascii_letters + string.digits, k=10))).encode('utf-8')
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 23, in arbitrary_hash_trunc
+    mask = 0xFF << (8 - (trunc % 8)) & 0xFF
+KeyboardInterrupt
+
+~/Desktop/CSC 321/asgn4 ──────────────────────────────── ✘ INT 1m 48s  base 05:15:36 PM ─╮
+❯ /usr/bin/python3 "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py"    ─╯
+Collision found for 8 bits: b'pzZV3YdFIc' and b'MEXmVRqhGP' with hash 4a
+Finding collisions for 8 bits
+Collision found for 8 bits: b'gFcgaFn1dP' and b'qaKaoXxXgn' with hash 52
+Number of hashes computed: 12
+Finding collisions for 10 bits
+Collision found for 10 bits: b'O0vRQHKckj' and b'J7KiahY48c' with hash 3780
+Number of hashes computed: 37
+Finding collisions for 12 bits
+Collision found for 12 bits: b'qJuElID3ui' and b'zVmFkNVVym' with hash c750
+Number of hashes computed: 47
+Finding collisions for 14 bits
+Collision found for 14 bits: b'vzoLVlHHYr' and b'bx1gGUzXmO' with hash 0704
+Number of hashes computed: 186
+Finding collisions for 16 bits
+Collision found for 16 bits: b'8vI2p4f26a' and b'cQFg0r0t5J' with hash c7c6
+Number of hashes computed: 442
+Finding collisions for 18 bits
+Collision found for 18 bits: b'X6LdajHcV3' and b'g0ODPp197q' with hash 11eb00
+Number of hashes computed: 1100
+Finding collisions for 20 bits
+Collision found for 20 bits: b'WX1O8rc5k5' and b'02AEjCKai3' with hash ffc700
+Number of hashes computed: 1544
+Finding collisions for 22 bits
+Collision found for 22 bits: b'dzpFdACa8G' and b'Mk0CQlM22R' with hash ff4ab8
+Number of hashes computed: 2551
+Finding collisions for 24 bits
+Collision found for 24 bits: b'W0yMRWuyzZ' and b'2e8RY5eMgQ' with hash c516cb
+Number of hashes computed: 8153
+Finding collisions for 26 bits
+Collision found for 26 bits: b'ssrNFQpoFV' and b'OFvMqvEsup' with hash 64dcce40
+Number of hashes computed: 4276
+Finding collisions for 28 bits
+Collision found for 28 bits: b'75DzA4tI3D' and b'5CtlgzATwX' with hash fe1789b0
+Number of hashes computed: 12221
+Finding collisions for 30 bits
+Collision found for 30 bits: b'1gziHFzZk6' and b'k4DAItTNtH' with hash 5c13f754
+Number of hashes computed: 1148
+Finding collisions for 32 bits
+Collision found for 32 bits: b'EFfsIaO768' and b'LpbdKpONc7' with hash 29480516
+Number of hashes computed: 93941
+Finding collisions for 34 bits
+Collision found for 34 bits: b'7nS3Q0YeKC' and b'1z5ZvOfqID' with hash b5c45bc780
+Number of hashes computed: 294972
+Finding collisions for 36 bits
+Collision found for 36 bits: b'vaik1kyJLA' and b'exqA7El9NL' with hash 557eb9cc30
+Number of hashes computed: 106307
+Finding collisions for 38 bits
+Collision found for 38 bits: b'ku5e1zxxhg' and b'2i62akYekG' with hash dea3270f9c
+Number of hashes computed: 882325
+Finding collisions for 40 bits
+Collision found for 40 bits: b'PJJMGzF07w' and b'MBR0cy9yvj' with hash 885d1a10a2
+Number of hashes computed: 2539398
+Finding collisions for 42 bits
+Collision found for 42 bits: b'umHpAYDJE8' and b'rAEqaFNxxF' with hash 5dd028bff2c0
+Number of hashes computed: 278936
+Finding collisions for 44 bits
+Collision found for 44 bits: b'EUgCXzOYVV' and b'Tp3Q2KaEPB' with hash 21a84ce344e0
+Number of hashes computed: 1694021
+Finding collisions for 46 bits
+^CTraceback (most recent call last):
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 66, in <module>
+    
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 62, in main
+    # print(arbitrary_hash_trunc(b"hello", 24))
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 37, in find_collisions
+    random_str = (''.join(random.choices(string.ascii_letters + string.digits, k=10))).encode('utf-8')
+  File "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py", line 23, in arbitrary_hash_trunc
+    mask = 0xFF << (8 - (trunc % 8)) & 0xFF
+KeyboardInterrupt
+
+~/Desktop/CSC 321/asgn4 ──────────────────────────────── ✘ INT 1m 48s  base 05:15:36 PM ─╮
+❯ /usr/bin/python3 "/Users/christopheryoeurng/Desktop/CSC 321/asgn4/restart_asgn4.py"    ─╯
+Collision found for 8 bits: b'pzZV3YdFIc' and b'MEXmVRqhGP' with hash 4a
+Number of messages attempted: 8
+Time taken: 0.0002028942108154297
+Collision found for 10 bits: b'lahwrsErkH' and b'BeQn8Y0hXx' with hash 35c0
+Number of messages attempted: 31
+Time taken: 0.00036716461181640625
+Collision found for 12 bits: b'YsKc2TTtFa' and b'qP5l2Ym44j' with hash 75d0
+Number of messages attempted: 151
+Time taken: 0.0017032623291015625
+Collision found for 14 bits: b'U7fohlILb9' and b'2U452FXmNu' with hash 20a0
+Number of messages attempted: 324
+Time taken: 0.0032770633697509766
+Collision found for 16 bits: b'iEvGqClpuj' and b'GG64Bj63Hz' with hash b071
+Number of messages attempted: 353
+Time taken: 0.0035071372985839844
+Collision found for 18 bits: b'RLRdFuS6WL' and b'4rwJnBHcaQ' with hash e13040
+Number of messages attempted: 139
+Time taken: 0.0015969276428222656
+Collision found for 20 bits: b'sjlgND8hf9' and b'0WvRpisxm7' with hash 3015d0
+Number of messages attempted: 897
+Time taken: 0.008234977722167969
+Collision found for 22 bits: b'5OGuREeTRM' and b'hJvlTJjlSE' with hash 165840
+Number of messages attempted: 3244
+Time taken: 0.026311874389648438
+Collision found for 24 bits: b'F3KRM4gj4v' and b'jKuDnSAqlO' with hash 44664a
+Number of messages attempted: 7018
+Time taken: 0.05101966857910156
+Collision found for 26 bits: b'k0qTuX3zWm' and b'rqTXT3hq2f' with hash 03b2a600
+Number of messages attempted: 3858
+Time taken: 0.02950906753540039
+Collision found for 28 bits: b'czrke82fJm' and b'n68kvv6GBZ' with hash 0c22c5b0
+Number of messages attempted: 27027
+Time taken: 0.20609784126281738
+Collision found for 30 bits: b'AjOfta5fRU' and b'nixjhkJoi0' with hash 2511f910
+Number of messages attempted: 33365
+Time taken: 0.25609302520751953
+Collision found for 32 bits: b'bnDj6ncqzJ' and b'Gzcr1DqUWX' with hash 2a816246
+Number of messages attempted: 25798
+Time taken: 0.191972017288208
+Collision found for 34 bits: b'uUgf8aC0B2' and b'380COe7DnJ' with hash aa0585a480
+Number of messages attempted: 63543
+Time taken: 0.4984557628631592
+Collision found for 36 bits: b'P4VpfyQxbD' and b'ZxNxJrTDL2' with hash 7c83487580
+Number of messages attempted: 314866
+Time taken: 2.4998252391815186
+Collision found for 38 bits: b'5E88Tmq5MJ' and b'BR5IbBAsVp' with hash 82a65a406c
+Number of messages attempted: 442692
+Time taken: 3.4630990028381348
+Collision found for 40 bits: b'hdGPr2WVc9' and b'YguBK3073W' with hash 7689e6e1e2
+Number of messages attempted: 1085973
+Time taken: 8.64444899559021
+Collision found for 42 bits: b'A5dr6sYsMN' and b'UZ5RqbL9R6' with hash a653334cdbc0
+Number of messages attempted: 1906507
+Time taken: 16.159368991851807
+Collision found for 44 bits: b'5mxvHMcFvC' and b'Qd3JDjigrf' with hash b37bd70579a0
+Number of messages attempted: 9712109
+Time taken: 82.49475002288818
+Collision found for 46 bits: b'Br4UK4O5LS' and b'kSuZJSreVY' with hash 49ae90576ac8
+Number of messages attempted: 3510443
+Time taken: 29.465295791625977
+Collision found for 48 bits: b'9u9zF9tOHn' and b'aCNNvFchz5' with hash a251625ff4dc
+Number of messages attempted: 32301396
+Time taken: 267.0186469554901
+Collision found for 50 bits: b'6pJj3BeoP8' and b'JXeXlrzytC' with hash b1aaa99ca187c0
+Number of messages attempted: 78205523
+Time taken: 683.1817667484283
